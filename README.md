@@ -10,7 +10,7 @@
 
 **Full docs and live demo:** [https://trendsmcp.ai/youtube-trends](https://trendsmcp.ai/youtube-trends)
 
-Part of **[Trends MCP](https://trendsmcp.ai)** -- the MCP server for live trend data across 12+ sources.
+Part of **[Trends MCP](https://trendsmcp.ai)** - the MCP server for live trend data across 12+ sources.
 See the main repo: [https://github.com/trendsmcp/trends-mcp](https://github.com/trendsmcp/trends-mcp)
 
 ---
@@ -123,7 +123,7 @@ Browse all: [https://trendsmcp.ai/data-sources](https://trendsmcp.ai/data-source
 
 ## Also works as a Python client
 
-Same API key works directly in Python — no MCP host needed.
+Same API key works directly in Python - no MCP host needed.
 
 ```bash
 pip install youtube-trends-mcp
