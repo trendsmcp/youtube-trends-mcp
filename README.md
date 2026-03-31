@@ -118,6 +118,29 @@ News Sentiment, Web Traffic, App Downloads, Steam, npm, and more.
 
 Browse all: [https://trendsmcp.ai/data-sources](https://trendsmcp.ai/data-sources)
 
+
+---
+
+## Also works as a Python client
+
+Same API key works directly in Python — no MCP host needed.
+
+```bash
+pip install youtube-trends-mcp
+```
+
+```python
+import os
+from youtube_trends_mcp import TrendsMcpClient, SOURCE
+
+client = TrendsMcpClient(api_key=os.environ["TRENDSMCP_API_KEY"])
+
+series  = client.get_trends(source=SOURCE, keyword="your keyword")
+growth  = client.get_growth(source=SOURCE, keyword="your keyword", percent_growth=["1M", "3M", "12M"])
+top     = client.get_top_trends(type="Youtube", limit=10)
+```
+
+Full Python docs: [trendsmcp.ai/docs](https://trendsmcp.ai/docs)
 ---
 
 ## License
